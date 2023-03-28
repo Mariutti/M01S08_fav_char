@@ -1,0 +1,15 @@
+Crie um componente geral com estilizações do bootstrap chamado navbar que será a principal forma de navegação de um site fictício.
+Ex: https://getbootstrap.com/docs/5.2/components/navbar/#how-it-works
+
+No final para verificar seu funcionamento chame o navbar no componente inicial (app)
+
+
+Crie um componente que será um card, este card poderá ser utilizado para indicar algumas informações sobre personagens da sua série favorita, exemplo, minha série favorita é Game Of Thrones, um de seus personagens é o Jon Snow. Essas informações são: nome, uma imagem, nome do ator, e uma breve descrição. No início esse componente será chamado de item-card e as informações serão fixas, escolha apenas um personagem.
+
+
+Para praticar mais a organização de responsabilidades feita no front e também a injeção de dependências, iremos simular um projeto com comunicação para o localStorage. Primeiro crie um service para fazer a comunicação com o controlador do template e o envio de dados ao localStorage.
+A temática será a mesma abordada nas aulas. No html do template deverá ter um formulário bootstrap com dois inputs, um para capturar o email e outro para a senha, além disso também deverá haver um botão de enviar. Através do evento de click, visto rapidamente em aula envie esses dados até o localStorage no formato de objeto.
+Deverá ser feito a injeção de dependência do service criado, para o controller.
+
+OBS: lembre-se do fluxo de informações:
+TEMPLATE > CONTROLLER > SERVICE > LOCAL STORAGE
