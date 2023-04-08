@@ -1,0 +1,15 @@
+<div class="container mt-2">
+  <form>
+    <div class="form-group mb-2">
+      <label for="search">Teste de @Output</label>
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="form-control"
+        [(ngModel)]="srcInput"
+        (keyup)="getInputValue()"
+      />
+    </div>
+  </form>
+</div>
